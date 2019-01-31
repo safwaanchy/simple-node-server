@@ -34,7 +34,7 @@ hbs.registerHelper('screamIt', (text) => {
 });
 
 //middleware routes to render different pages
-app.get('/', (req, res,) => {
+app.get('/', (req, res) => {
     res.render('home.hbs', {
         pageTitle: 'Home',
         welcomeMessage: 'Hello There'
